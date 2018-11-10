@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<link rel="stylesheet" href="./src/assets/styles/bootstrap.css">-->
+    <!--<link rel="stylesheet" href="./src/assets/styles/index-header.css">-->
+    <meta charset="UTF-8">
+    <title>宁波市规划局市情平台</title>
+</head>
+<body>
+<nav class="navbar nav-header">
+    <span class="logo"><img src="" alt="">宁波市市情平台<span class="beta">@beta</span></span>
+    <div class="navigator nav-group active" data-ref="common">
+        <div class="nav-item active" hash-ref="#home"><div class="bg"></div>市情概览</div>
+        <div class="nav-item" hash-ref="#resource"><div class="bg"></div>资源中心</div>
+        <div class="nav-item" hash-ref="#app"><div class="bg"></div>应用中心</div>
+        <div class="nav-item" hash-ref="#outside" href="http://portal.gis.yun.nb/OneMapServer/rest/services" target="_blank"><div class="bg"></div>对外服务</div>
+        <div class="nav-item insight-div" hash-ref="#insight">
+            <div class="bg"></div>
+            主题定制
+            <ul class="insight-ul dropdown-menu" id="insight-ul">
+                <li class="insight-li" hash-ref="#charthome"><a href="#" class="insight-a">BI生成</a></li>
+                <li class="insight-li" hash-ref="#maphome"><a href="#" class="insight-a">地图生成</a></li>
+                <li class="insight-li" hash-ref="#layout"><a href="#" class="insight-a">主题生成</a></li>
+                <li class="insight-li" hash-ref="#manage"><a href="#" class="insight-a">数据管理</a></li>
+            </ul>
+        </div>
+        <div class="nav-item" hash-ref="#citysign"><div class="bg"></div>城市体征</div>
+    </div>
+    <!--<span class="search nav-group" data-ref="resource">
+        <input type="text" id="search-textbox" placeholder="请输入关键字查询">
+        <i class="icon iconfont icon-search" id="search"></i>
+    </span>-->
+    <ul class="user-info">
+        <!--<li class="item nav-group" data-ref="resource" hash-ref="#home">
+            <i class="icon iconfont icon-home" style="color: #6a90ff"></i> 首页
+        </li>-->
+        <li class="item" href="./viewport.html">
+            <div class="ico user"></div>管理员
+        </li>
+        <li class="item">
+            <div class="ico logout"></div> 注销
+        </li>
+    </ul>
+</nav>
+<div class="viewport-body" id="viewport">
+
+</div>
+<div id="manageDiv"></div>
+</body>
+</html>
